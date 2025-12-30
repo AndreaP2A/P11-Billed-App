@@ -1,0 +1,15 @@
+# Multi-repo gitignore
+node_modules/
+.DS_Store
+dist/
+coverage/
+.env
+*.log
+
+# Backend specific
+backend/node_modules/
+backend/database_dev.sqlite
+
+# Frontend specific
+frontend/node_modules/
+frontend/.live-server.json
